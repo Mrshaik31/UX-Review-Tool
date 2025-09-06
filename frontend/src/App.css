@@ -1,0 +1,139 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.upload-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.file-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px dashed #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.preview-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.upload-button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.upload-button:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.upload-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  padding: 10px;
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.results-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.score-display {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.score-box {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background: #e8f5e8;
+  border: 2px solid #28a745;
+}
+
+.score-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #28a745;
+  margin: 0;
+}
+
+.score-label {
+  font-size: 18px;
+  color: #333;
+  margin: 5px 0 0 0;
+}
+
+.recommendations {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  background: #f8f9fa;
+}
+
+.recommendation-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.recommendation-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.css-fix {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 14px;
+  color: #333;
+}
+.app-container {
+  padding: 20px;
+}
