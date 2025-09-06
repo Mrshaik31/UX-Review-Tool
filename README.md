@@ -1,2 +1,2 @@
 # UX-Review-Tool
-Smart UX Review Tool – Upload a screenshot and get instant design analysis (accessibility, hierarchy, contrast)
+AI-powered UX Analyzer that reviews UI screenshots and provides accessibility, color contrast, and CTA improvement suggestions.
