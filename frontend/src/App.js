@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ImageUpload from "./components/ImageUpload";
 import Results from "./components/Results";
-import { motion } from "framer-motion";
+import { motion, startWaapiAnimation } from "framer-motion";
 import { Sun, Moon } from "lucide-react";
 
 function App() {
@@ -123,3 +123,5 @@ function App() {
 }
 
 export default App;
+
+// npm start- to run the frontend
